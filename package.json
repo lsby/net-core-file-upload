@@ -1,7 +1,6 @@
 {
-  "name": "playground-lib",
+  "name": "@lsby/net-core-file-upload",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
   "exports": {
     "require": "./dist/cjs/index.cjs",
@@ -24,12 +23,15 @@
     "test:coverage": "npm run check:all && vitest run --coverage && open-cli ./coverage/index.html"
   },
   "dependencies": {
+    "@lsby/net-core": "^0.0.20",
+    "express-fileupload": "^1.5.1",
     "vitest": "^2.0.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
     "@lsby/eslint-config": "^0.0.2",
+    "@types/express-fileupload": "^1.5.0",
     "@types/node": "^20.12.10",
     "@vitest/coverage-v8": "^2.0.2",
     "bumpp": "^9.4.1",
@@ -41,3 +43,4 @@
     "typescript": "^5.4.5"
   }
 }
+
