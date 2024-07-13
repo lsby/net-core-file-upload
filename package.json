@@ -23,7 +23,6 @@
     "test:coverage": "npm run check:all && vitest run --coverage && open-cli ./coverage/index.html"
   },
   "dependencies": {
-    "@lsby/net-core": "^0.0.20",
     "express-fileupload": "^1.5.1",
     "vitest": "^2.0.2",
     "zod": "^3.23.8"
@@ -41,5 +40,9 @@
     "tsup": "^8.0.2",
     "tsx": "^4.9.3",
     "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "@lsby/net-core": "^0.0.22"
   }
 }
+
