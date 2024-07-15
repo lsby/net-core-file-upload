@@ -41,6 +41,6 @@
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "@lsby/net-core": "^0.0.24"
+    "@lsby/net-core": "^0.1.0"
   }
 }
