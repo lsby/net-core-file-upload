@@ -1,5 +1,5 @@
 {
-  "name": "@lsby/net-core-plugin-file-upload",
+  "name": "@lsby/net-core-file-upload",
   "version": "0.1.8",
   "type": "module",
   "exports": {
