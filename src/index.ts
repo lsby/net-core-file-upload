@@ -15,6 +15,7 @@ var 类型描述 = z.object({
       md5: z.string(),
     })
     .array(),
+  filePayload: z.string().optional(),
 })
 
 export class 文件上传插件 extends 插件<typeof 类型描述> {
@@ -26,8 +27,17 @@ export class 文件上传插件 extends 插件<typeof 类型描述> {
         }),
       )
 
+      let filePayload: string | undefined
+      if (req.body && typeof req.body === 'object' && 'filePayload' in req.body) {
+        let temp = (req.body as Record<string, unknown>)['filePayload']
+        if (typeof temp === 'string') {
+          filePayload = temp
+        }
+      }
+
       return {
         files: Object.values(req.files as unknown as fileUpload.UploadedFile[]),
+        filePayload,
       }
     })
   }
