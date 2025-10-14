@@ -13,6 +13,7 @@ var 类型描述 = z.object({
       truncated: z.boolean(),
       size: z.number(),
       md5: z.string(),
+      mv: z.function(z.tuple([z.string()]), z.promise(z.void())),
     })
     .array(),
   filePayload: z.string().optional(),
