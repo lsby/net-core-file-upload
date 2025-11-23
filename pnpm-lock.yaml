@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lsby/net-core':
-        specifier: ^0.8.0
-        version: 0.8.0(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.1.2(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)
+        specifier: ^0.9.0
+        version: 0.9.3(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)
       '@lsby/ts-fp-data':
         specifier: ^0.2.5
         version: 0.2.5
@@ -540,8 +540,8 @@ packages:
       eslint-plugin-sort-class-members: ^1.20.0
       eslint-plugin-unused-imports: ^3.2.0
 
-  '@lsby/net-core@0.8.0':
-    resolution: {integrity: sha512-nY30Flv65UcfOg5cqMnOmBdMidqVuAbBEacnNs4TyJEEaD4qW6++7bA8fB8pBXd8E2MV4tai8i6YwwcjJm4EjQ==}
+  '@lsby/net-core@0.9.3':
+    resolution: {integrity: sha512-O1C8aO8rWAS/a6nQtEuRzGPKPx9K0uICV/PZmvhhBw3XB+ytgNgEFvbVO1/m+fhh2CpKQ6TK9+yNMSfnFawrKQ==}
     hasBin: true
     peerDependencies:
       '@lsby/ts-fp-data': ^0.2.5
@@ -555,10 +555,6 @@ packages:
 
   '@lsby/ts-global@0.0.8':
     resolution: {integrity: sha512-CcRzXLLFH80erMvy5TbJaCP4pBwBp7HaoFlUKChkfbpS4jIr5Z6XXSxBcPR+dga9eMKWNJdiovC1qEKdtbVNAA==}
-
-  '@lsby/ts-log@0.1.2':
-    resolution: {integrity: sha512-uaw/L56XqE95gA0MElZHcLlQ9vQ0OpmZ71O4ARb4NljMRbsEHlouv8ZT4qpdZysPNaenV3ivFPog/qXXAsSzDA==}
-    hasBin: true
 
   '@lsby/ts-log@0.3.0':
     resolution: {integrity: sha512-8OyXq8Y3w2Zan+pPnMifJoxTQjGQ06oYBgzjS1WSkr5yIcKaiWthVbv63UHN/dwt3udrwDJPI28k5Vh65n9I9g==}
@@ -2810,11 +2806,11 @@ snapshots:
       eslint-plugin-sort-class-members: 1.20.0(eslint@8.57.0)
       eslint-plugin-unused-imports: 3.2.0(@typescript-eslint/eslint-plugin@7.8.0(@typescript-eslint/parser@7.8.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
 
-  '@lsby/net-core@0.8.0(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.1.2(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)':
+  '@lsby/net-core@0.9.3(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)':
     dependencies:
       '@lsby/ts-fp-data': 0.2.5
       '@lsby/ts-global': 0.0.8(@types/node@20.12.10)
-      '@lsby/ts-log': 0.1.2(@types/node@20.12.10)
+      '@lsby/ts-log': 0.3.0(@types/node@20.12.10)
       '@types/express': 4.17.21
       commander: 12.1.0
       express: 4.19.2
@@ -2843,25 +2839,6 @@ snapshots:
 
   '@lsby/ts-global@0.0.8(@types/node@20.12.10)':
     dependencies:
-      vitest: 2.0.2(@types/node@20.12.10)
-    transitivePeerDependencies:
-      - '@edge-runtime/vm'
-      - '@types/node'
-      - '@vitest/browser'
-      - '@vitest/ui'
-      - happy-dom
-      - jsdom
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-
-  '@lsby/ts-log@0.1.2(@types/node@20.12.10)':
-    dependencies:
-      debug: 4.3.5
       vitest: 2.0.2(@types/node@20.12.10)
     transitivePeerDependencies:
       - '@edge-runtime/vm'
