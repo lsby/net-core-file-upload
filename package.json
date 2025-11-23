@@ -1,6 +1,6 @@
 {
   "name": "@lsby/net-core-file-upload",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "type": "module",
   "exports": {
     "require": "./dist/cjs/index.cjs",
