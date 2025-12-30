@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lsby/net-core':
-        specifier: ^0.11.0
-        version: 0.11.2(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)
+        specifier: ^0.12.0
+        version: 0.12.0(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)
       '@lsby/ts-fp-data':
         specifier: ^0.2.5
         version: 0.2.5
@@ -540,8 +540,8 @@ packages:
       eslint-plugin-sort-class-members: ^1.20.0
       eslint-plugin-unused-imports: ^3.2.0
 
-  '@lsby/net-core@0.11.2':
-    resolution: {integrity: sha512-ycGNj+ehWOFurci5ClPhXg/e3lWG3P48DbWSHjme4VuJC+pjZpSD1zd6SlsRjJtunNkOr69jEd3wUwxmvDRXOA==}
+  '@lsby/net-core@0.12.0':
+    resolution: {integrity: sha512-PI6aCK+qNVvCeO3eg+8z5/dZA4ZHY20JuSPNuxEAm2uZ7MYnymrxHYfhmHzo5sW5M8A1OqmLSUTr3dQT9TDw/Q==}
     hasBin: true
     peerDependencies:
       '@lsby/ts-fp-data': ^0.2.5
@@ -2806,7 +2806,7 @@ snapshots:
       eslint-plugin-sort-class-members: 1.20.0(eslint@8.57.0)
       eslint-plugin-unused-imports: 3.2.0(@typescript-eslint/eslint-plugin@7.8.0(@typescript-eslint/parser@7.8.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
 
-  '@lsby/net-core@0.11.2(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)':
+  '@lsby/net-core@0.12.0(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)':
     dependencies:
       '@lsby/ts-fp-data': 0.2.5
       '@lsby/ts-global': 0.0.8(@types/node@20.12.10)
