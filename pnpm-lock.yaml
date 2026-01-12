@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@lsby/net-core':
-        specifier: ^0.12.0
-        version: 0.12.0(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)
+        specifier: ^0.13.0
+        version: 0.13.2(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.1(@types/node@20.12.10))(@types/express@4.17.21)(express@4.19.2)(zod@3.24.2)
       '@lsby/ts-fp-data':
         specifier: ^0.2.5
         version: 0.2.5
       '@lsby/ts-log':
-        specifier: ^0.3.0
-        version: 0.3.0(@types/node@20.12.10)
+        specifier: ^0.3.1
+        version: 0.3.1(@types/node@20.12.10)
       express-fileupload:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.5.2
+        version: 1.5.2
       zod:
         specifier: 3.24.2
         version: 3.24.2
@@ -540,8 +540,8 @@ packages:
       eslint-plugin-sort-class-members: ^1.20.0
       eslint-plugin-unused-imports: ^3.2.0
 
-  '@lsby/net-core@0.12.0':
-    resolution: {integrity: sha512-PI6aCK+qNVvCeO3eg+8z5/dZA4ZHY20JuSPNuxEAm2uZ7MYnymrxHYfhmHzo5sW5M8A1OqmLSUTr3dQT9TDw/Q==}
+  '@lsby/net-core@0.13.2':
+    resolution: {integrity: sha512-zuidifWToxyIb2gQgqsjySBSqM/k8DWJVSE+l+24rNzFJgfY22Es8WnqeCa4SJoQStmFC6rmtJjBbdksCaCo7w==}
     hasBin: true
     peerDependencies:
       '@lsby/ts-fp-data': ^0.2.5
@@ -553,11 +553,8 @@ packages:
   '@lsby/ts-fp-data@0.2.5':
     resolution: {integrity: sha512-PbegSfedf2lHqWIRGCahYaQqp/cR9Y8D2dzO/QzbB8c5/meUJyY1kxjvU5og6ToTSyqhJ1s0lGHmq7LXwdV/fA==}
 
-  '@lsby/ts-global@0.0.8':
-    resolution: {integrity: sha512-CcRzXLLFH80erMvy5TbJaCP4pBwBp7HaoFlUKChkfbpS4jIr5Z6XXSxBcPR+dga9eMKWNJdiovC1qEKdtbVNAA==}
-
-  '@lsby/ts-log@0.3.0':
-    resolution: {integrity: sha512-8OyXq8Y3w2Zan+pPnMifJoxTQjGQ06oYBgzjS1WSkr5yIcKaiWthVbv63UHN/dwt3udrwDJPI28k5Vh65n9I9g==}
+  '@lsby/ts-log@0.3.1':
+    resolution: {integrity: sha512-MCVZTItIxI3qkcKD88nh4tmFr/U9UnnI6DatvpN0DGGVQhsPHlcbE6aYV38gxNSxvNzwTok0tfp2gueeAtwUFQ==}
     hasBin: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1224,8 +1221,8 @@ packages:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
     engines: {node: '>=16.17'}
 
-  express-fileupload@1.5.1:
-    resolution: {integrity: sha512-LsYG1ALXEB7vlmjuSw8ABeOctMp8a31aUC5ZF55zuz7O2jLFnmJYrCv10py357ky48aEoBQ/9bVXgFynjvaPmA==}
+  express-fileupload@1.5.2:
+    resolution: {integrity: sha512-wxUJn2vTHvj/kZCVmc5/bJO15C7aSMyHeuXYY3geKpeKibaAoQGcEv5+sM6nHS2T7VF+QHS4hTWPiY2mKofEdg==}
     engines: {node: '>=12.0.0'}
 
   express@4.19.2:
@@ -1591,9 +1588,6 @@ packages:
 
   lodash.sortby@4.7.0:
     resolution: {integrity: sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==}
-
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
   loupe@3.1.1:
     resolution: {integrity: sha512-edNu/8D5MKVfGVFRhFf8aAxiTM6Wumfz5XsaatSxlD3w4R1d/WEKUTydCdPGbl9K7QG/Ca3GnDV2sIKIpXRQcw==}
@@ -2806,56 +2800,23 @@ snapshots:
       eslint-plugin-sort-class-members: 1.20.0(eslint@8.57.0)
       eslint-plugin-unused-imports: 3.2.0(@typescript-eslint/eslint-plugin@7.8.0(@typescript-eslint/parser@7.8.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)
 
-  '@lsby/net-core@0.12.0(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.0(@types/node@20.12.10))(@types/express@4.17.21)(@types/node@20.12.10)(express@4.19.2)(zod@3.24.2)':
+  '@lsby/net-core@0.13.2(@lsby/ts-fp-data@0.2.5)(@lsby/ts-log@0.3.1(@types/node@20.12.10))(@types/express@4.17.21)(express@4.19.2)(zod@3.24.2)':
     dependencies:
       '@lsby/ts-fp-data': 0.2.5
-      '@lsby/ts-global': 0.0.8(@types/node@20.12.10)
-      '@lsby/ts-log': 0.3.0(@types/node@20.12.10)
+      '@lsby/ts-log': 0.3.1(@types/node@20.12.10)
       '@types/express': 4.17.21
       commander: 12.1.0
       express: 4.19.2
-      lodash: 4.17.21
       short-uuid: 5.2.0
       ws: 8.18.1
       zod: 3.24.2
     transitivePeerDependencies:
-      - '@edge-runtime/vm'
-      - '@types/node'
-      - '@vitest/browser'
-      - '@vitest/ui'
       - bufferutil
-      - happy-dom
-      - jsdom
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
       - utf-8-validate
 
   '@lsby/ts-fp-data@0.2.5': {}
 
-  '@lsby/ts-global@0.0.8(@types/node@20.12.10)':
-    dependencies:
-      vitest: 2.0.2(@types/node@20.12.10)
-    transitivePeerDependencies:
-      - '@edge-runtime/vm'
-      - '@types/node'
-      - '@vitest/browser'
-      - '@vitest/ui'
-      - happy-dom
-      - jsdom
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-
-  '@lsby/ts-log@0.3.0(@types/node@20.12.10)':
+  '@lsby/ts-log@0.3.1(@types/node@20.12.10)':
     dependencies:
       debug: 4.3.5
       vitest: 2.0.2(@types/node@20.12.10)
@@ -3620,7 +3581,7 @@ snapshots:
       signal-exit: 4.1.0
       strip-final-newline: 3.0.0
 
-  express-fileupload@1.5.1:
+  express-fileupload@1.5.2:
     dependencies:
       busboy: 1.6.0
 
@@ -4000,8 +3961,6 @@ snapshots:
   lodash.merge@4.6.2: {}
 
   lodash.sortby@4.7.0: {}
-
-  lodash@4.17.21: {}
 
   loupe@3.1.1:
     dependencies:
